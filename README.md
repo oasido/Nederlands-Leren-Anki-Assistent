@@ -24,6 +24,7 @@ As you can see, if there are more than one definitions for one word, it *should*
 
 <hr /> 
 
-### **Please note**
-The plugin is not released on AnkiWeb thus you will have to install yourself in your Anki files.
+### Get this Add-On
+https://ankiweb.net/shared/info/2100409589
 
+Made with ❤️ for r/learndutch
