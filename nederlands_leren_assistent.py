@@ -1,5 +1,5 @@
 """
-Anki Add-on: Nederlands Leren
+Anki Add-on: Nederlands Leren Assistent
 based on Reviewer Context Menu Search (https://ankiweb.net/shared/info/359618071), which is based on Glutanimate's addon (https://ankiweb.net/shared/info/869824347).
 
 Adds context menu entries for searching various online search providers.
@@ -11,7 +11,7 @@ Based on:
 'Context Menu Search' by Glutanimate,
 'OSX Dictionary Lookup' by Eddie Blundell,
 'Search Google Images' by Steve AW,
-'GuyB790 'Ultimate Programming Machine' Guy Bidkar & oasido/sir bluehammer.
+'GuyB790 'Ultimate Programming Machine' Guy Bidkar & Ofek A.
 """
 import urllib
 import requests
@@ -66,7 +66,7 @@ def get_definitions(phrase):
 
 def show_definition(phrase):
     try:
-        definitions = get_definitions(phrase.strip(" "))
+        definitions = get_definitions(phrase.strip())
         textToPrint = ""
         for definition in definitions:
             textToPrint += f"<h1>{definition[0]}</h1><div style='font-size: 16px'><b>Definitie:</b> {definition[1]}<br /><b>Voorbeeld:</b> {definition[2]}</div><br />"
