@@ -93,7 +93,7 @@ def add_lookup_action(view, menu):
 
     suffix = (selected[:20] + "..") if len(selected) > 20 else selected
 
-    menu.addAction("Woordenboek definitie").triggered.connect(
+    menu.addAction("Woordenboekdefinitie").triggered.connect(
         lambda _: show_definition(selected)
     )
 
