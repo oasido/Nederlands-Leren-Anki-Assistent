@@ -9,10 +9,10 @@ The add on adds context menu entries for searching various online search provide
 <hr />
 
 ## Showcase
-Here's what it looks like on Anki, when you right click a word, you have the regular options to search it in various websites. Currently the default websites are Forvo, Reverse & the main feature of this app is the "Woordenboek definitie".
+Here's what it looks like on Anki, when you right click a word, you have the regular options to search it in various websites. Currently the default websites are Forvo, Reverse & the main feature of this app is the "Woordenboekdefinitie".
 ![image](https://i.imgur.com/YCvC4wp.png)
 
-The "Woordenboek definitie" option uses BeautifulSoup to scrape the word definition in the website https://woorden.org/, a free Dutch dictionary.
+The "Woordenboekdefinitie" option uses BeautifulSoup to scrape the word definition in the website https://woorden.org/, a free Dutch dictionary.
 
 
 Here's what it looks like when you select that option:
