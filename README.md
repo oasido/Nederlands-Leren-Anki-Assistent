@@ -10,13 +10,13 @@ The add on adds context menu entries for searching various online search provide
 
 ## Showcase
 Here's what it looks like on Anki, when you right click a word, you have the regular options to search it in various websites. Currently the default websites are Forvo, Reverse & the main feature of this app is the "Woordenboekdefinitie".
-![image](https://i.imgur.com/YCvC4wp.png)
+![image](https://i.imgur.com/0IjBSrE.png)
 
 The "Woordenboekdefinitie" option uses BeautifulSoup to scrape the word definition in the website https://woorden.org/, a free Dutch dictionary.
 
 
 Here's what it looks like when you select that option:
-![image](https://i.imgur.com/8S1KveC.png)
+![image](https://i.imgur.com/e1P8GPw.png)
 
 As you can see, if there are more than one definitions for one word, it *should* show them all in that Qt window.
 
