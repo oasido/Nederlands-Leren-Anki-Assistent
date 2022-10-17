@@ -1,4 +1,4 @@
-# Nederlands-Leren-Anki-Assistent
+# Nederlands-Leren-Anki
 ## Intro
 Hoi allemaal, a'hello.
 
