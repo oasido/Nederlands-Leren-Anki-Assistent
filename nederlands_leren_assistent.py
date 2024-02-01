@@ -52,7 +52,7 @@ def get_definitions(phrase):
 
     soup = BeautifulSoup(raw_html, "html.parser")
     main_element = soup.find_all("div", class_="slider-wrap")[2]
-    translations = main_element.find_all("h2")
+    translations = main_element.find_all("h1")
     descriptions = main_element.find_all(attrs={"style": "color:#000;font-size:10pt"})
     usage_examples = main_element.find_all(attrs={"style": "color:#422526"})
 
